@@ -1,0 +1,54 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: mx-server
+    image: innei/mx-server:latest
+    command: bash ./docker-run.sh
+    platform: linux/amd64
+    environment:
+      - TZ=Asia/Shanghai
+      - NODE_ENV=production
+      - ALLOWED_ORIGINS=22333322.xyz,localhost
+      - JWT_SECRET=YpzE79Hm*QfKqtiuAtXQ
+      - ENCRYPT_KEY
+      - ENCRYPT_ENABLE=false
+    volumes:
+      - ./data/mx-space:/root/.mx-space
+    ports:
+      - "2333:2333"
+    depends_on:
+      - mongo
+      - redis
+    links:
+      - mongo
+      - redis
+    networks:
+      - app-network
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:2333/api/v2/ping"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
+
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - ./data/db:/data/db
+    networks:
+      - app-network
+    restart: always
+  redis:
+    image: redis
+    container_name: redis
+
+    networks:
+      - app-network
+    restart: always
+
+networks:
+  app-network:
+    driver: bridge

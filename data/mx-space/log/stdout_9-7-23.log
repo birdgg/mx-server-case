@@ -1,0 +1,93 @@
+
+========================================================
+[90m18:02:37[39m [32m[Nest] 1  - [39m09/07/2023, 6:02:37 PM [32m    LOG[39m [32m[34m数据目录已经建好：/root/.mx-space[39m[39m
+[90m18:02:37[39m [32m[Nest] 1  - [39m09/07/2023, 6:02:37 PM [32m    LOG[39m [32m[34m临时目录已经建好：/tmp/mx-space[39m[39m
+[90m18:02:37[39m [32m[Nest] 1  - [39m09/07/2023, 6:02:37 PM [32m    LOG[39m [32m[34m日志目录已经建好：/root/.mx-space/log[39m[39m
+[90m18:02:37[39m [32m[Nest] 1  - [39m09/07/2023, 6:02:37 PM [32m    LOG[39m [32m[34m资源目录已经建好：/root/.mx-space/assets[39m[39m
+[90m18:02:37[39m [32m[Nest] 1  - [39m09/07/2023, 6:02:37 PM [32m    LOG[39m [32m[34m文件存放目录已经建好：/root/.mx-space/static[39m[39m
+[90m18:02:38[39m cwd:  /app
+[90m18:02:38[39m [36mℹ[39m [[33mMongoDB[39m] [32mconnecting...[39m
+[90m18:02:38[39m [36mℹ[39m [[33mMongoDB[39m] [32mreadied![39m
+[90m18:02:38[39m [Database] migrate v200Alpha1
+[90m18:02:38[39m [Database] migrate v3330
+[90m18:02:38[39m [Database] migrate v3360
+[90m18:02:38[39m [Database] migrate v3390
+[90m18:02:39[39m [36mℹ[39m ENV: production
+[90m18:02:39[39m [32m✔[39m [P1] Server listen on: http://127.0.0.1:2333
+[90m18:02:39[39m [32m✔[39m [P1] Admin Dashboard: http://127.0.0.1:2333/qaqdmin
+[90m18:02:39[39m [32m✔[39m [P1] Admin Local Dashboard: http://127.0.0.1:2333/proxy/qaqdmin
+[90m18:02:39[39m [36mℹ[39m  [[95mSystem[39m]  [32mServer is up. [33m+3395ms[39m[32m[39m
+[90m18:02:39[39m [43m[30m WARN [39m[49m  [[33mEmailService[39m]  [33m未启动邮件通知[39m
+
+========================================================
+[90m20:44:15[39m [32m[Nest] 1  - [39m09/07/2023, 8:44:15 PM [32m    LOG[39m [32m[34m数据目录已经建好：/root/.mx-space[39m[39m
+[90m20:44:15[39m [32m[Nest] 1  - [39m09/07/2023, 8:44:15 PM [32m    LOG[39m [32m[34m临时目录已经建好：/tmp/mx-space[39m[39m
+[90m20:44:15[39m [32m[Nest] 1  - [39m09/07/2023, 8:44:15 PM [32m    LOG[39m [32m[34m日志目录已经建好：/root/.mx-space/log[39m[39m
+[90m20:44:15[39m [32m[Nest] 1  - [39m09/07/2023, 8:44:15 PM [32m    LOG[39m [32m[34m资源目录已经建好：/root/.mx-space/assets[39m[39m
+[90m20:44:15[39m [32m[Nest] 1  - [39m09/07/2023, 8:44:15 PM [32m    LOG[39m [32m[34m文件存放目录已经建好：/root/.mx-space/static[39m[39m
+[90m20:44:16[39m cwd:  /app
+[90m20:44:16[39m [36mℹ[39m [[33mMongoDB[39m] [32mconnecting...[39m
+[90m20:44:16[39m [36mℹ[39m [[33mMongoDB[39m] [32mreadied![39m
+[90m20:44:17[39m [36mℹ[39m ENV: production
+[90m20:44:17[39m [32m✔[39m [P1] Server listen on: http://127.0.0.1:2333
+[90m20:44:17[39m [32m✔[39m [P1] Admin Dashboard: http://127.0.0.1:2333/qaqdmin
+[90m20:44:17[39m [32m✔[39m [P1] Admin Local Dashboard: http://127.0.0.1:2333/proxy/qaqdmin
+[90m20:44:17[39m [36mℹ[39m  [[95mSystem[39m]  [32mServer is up. [33m+2977ms[39m[32m[39m
+[90m20:44:17[39m [43m[30m WARN [39m[49m  [[33mEmailService[39m]  [33m未启动邮件通知[39m
+[90m20:44:31[39m [43m[30m WARN [39m[49m  [[33mAllExceptionsFilter[39m]  [33mIP: 192.168.148.1 错误信息：(404) Cannot GET /master?t=1694090671436 Path: /master?t=1694090671436[39m
+[90m20:44:31[39m [43m[30m WARN [39m[49m  [[33mAllExceptionsFilter[39m]  [33mIP: 192.168.148.1 错误信息：(404) Cannot GET /master/check_logged?t=1694090671438 Path: /master/check_logged?t=1694090671438[39m
+
+========================================================
+[90m20:54:51[39m [32m[Nest] 1  - [39m09/07/2023, 8:54:51 PM [32m    LOG[39m [32m[34m数据目录已经建好：/root/.mx-space[39m[39m
+[90m20:54:51[39m [32m[Nest] 1  - [39m09/07/2023, 8:54:51 PM [32m    LOG[39m [32m[34m临时目录已经建好：/tmp/mx-space[39m[39m
+[90m20:54:51[39m [32m[Nest] 1  - [39m09/07/2023, 8:54:51 PM [32m    LOG[39m [32m[34m日志目录已经建好：/root/.mx-space/log[39m[39m
+[90m20:54:51[39m [32m[Nest] 1  - [39m09/07/2023, 8:54:51 PM [32m    LOG[39m [32m[34m资源目录已经建好：/root/.mx-space/assets[39m[39m
+[90m20:54:51[39m [32m[Nest] 1  - [39m09/07/2023, 8:54:51 PM [32m    LOG[39m [32m[34m文件存放目录已经建好：/root/.mx-space/static[39m[39m
+[90m20:54:51[39m cwd:  /app
+[90m20:54:51[39m [36mℹ[39m [[33mMongoDB[39m] [32mconnecting...[39m
+[90m20:54:51[39m [36mℹ[39m [[33mMongoDB[39m] [32mreadied![39m
+[90m20:54:53[39m [36mℹ[39m ENV: production
+[90m20:54:53[39m [32m✔[39m [P1] Server listen on: http://127.0.0.1:2333
+[90m20:54:53[39m [32m✔[39m [P1] Admin Dashboard: http://127.0.0.1:2333/qaqdmin
+[90m20:54:53[39m [32m✔[39m [P1] Admin Local Dashboard: http://127.0.0.1:2333/proxy/qaqdmin
+[90m20:54:53[39m [36mℹ[39m  [[95mSystem[39m]  [32mServer is up. [33m+2896ms[39m[32m[39m
+[90m20:54:53[39m [43m[30m WARN [39m[49m  [[33mEmailService[39m]  [33m未启动邮件通知[39m
+[90m20:54:56[39m [43m[30m WARN [39m[49m  [[33mAllExceptionsFilter[39m]  [33mIP: 192.168.214.1 错误信息：(404) Cannot GET /master?t=1694091296544 Path: /master?t=1694091296544[39m
+[90m20:54:56[39m [43m[30m WARN [39m[49m  [[33mAllExceptionsFilter[39m]  [33mIP: 192.168.214.1 错误信息：(404) Cannot GET /master/check_logged?t=1694091296544 Path: /master/check_logged?t=1694091296544[39m
+
+========================================================
+[90m20:55:32[39m [32m[Nest] 1  - [39m09/07/2023, 8:55:32 PM [32m    LOG[39m [32m[34m数据目录已经建好：/root/.mx-space[39m[39m
+[90m20:55:32[39m [32m[Nest] 1  - [39m09/07/2023, 8:55:32 PM [32m    LOG[39m [32m[34m临时目录已经建好：/tmp/mx-space[39m[39m
+[90m20:55:32[39m [32m[Nest] 1  - [39m09/07/2023, 8:55:32 PM [32m    LOG[39m [32m[34m日志目录已经建好：/root/.mx-space/log[39m[39m
+[90m20:55:32[39m [32m[Nest] 1  - [39m09/07/2023, 8:55:32 PM [32m    LOG[39m [32m[34m资源目录已经建好：/root/.mx-space/assets[39m[39m
+[90m20:55:32[39m [32m[Nest] 1  - [39m09/07/2023, 8:55:32 PM [32m    LOG[39m [32m[34m文件存放目录已经建好：/root/.mx-space/static[39m[39m
+[90m20:55:33[39m cwd:  /app
+[90m20:55:33[39m [36mℹ[39m [[33mMongoDB[39m] [32mconnecting...[39m
+[90m20:55:33[39m [36mℹ[39m [[33mMongoDB[39m] [32mreadied![39m
+[90m20:55:34[39m [36mℹ[39m ENV: production
+[90m20:55:34[39m [32m✔[39m [P1] Server listen on: http://127.0.0.1:2333
+[90m20:55:34[39m [32m✔[39m [P1] Admin Dashboard: http://127.0.0.1:2333/qaqdmin
+[90m20:55:34[39m [32m✔[39m [P1] Admin Local Dashboard: http://127.0.0.1:2333/proxy/qaqdmin
+[90m20:55:34[39m [36mℹ[39m  [[95mSystem[39m]  [32mServer is up. [33m+2798ms[39m[32m[39m
+[90m20:55:34[39m [43m[30m WARN [39m[49m  [[33mEmailService[39m]  [33m未启动邮件通知[39m
+[90m20:55:42[39m [43m[30m WARN [39m[49m  [[33mAllExceptionsFilter[39m]  [33mIP: 127.0.0.1 错误信息：(500) 站点主人信息已丢失 Path: /api/v2/master?t=1694091342737[39m
+
+========================================================
+[90m23:11:53[39m [32m[Nest] 1  - [39m09/07/2023, 11:11:53 PM [32m    LOG[39m [32m[34m数据目录已经建好：/root/.mx-space[39m[39m
+[90m23:11:53[39m [32m[Nest] 1  - [39m09/07/2023, 11:11:53 PM [32m    LOG[39m [32m[34m临时目录已经建好：/tmp/mx-space[39m[39m
+[90m23:11:53[39m [32m[Nest] 1  - [39m09/07/2023, 11:11:53 PM [32m    LOG[39m [32m[34m日志目录已经建好：/root/.mx-space/log[39m[39m
+[90m23:11:53[39m [32m[Nest] 1  - [39m09/07/2023, 11:11:53 PM [32m    LOG[39m [32m[34m资源目录已经建好：/root/.mx-space/assets[39m[39m
+[90m23:11:53[39m [32m[Nest] 1  - [39m09/07/2023, 11:11:53 PM [32m    LOG[39m [32m[34m文件存放目录已经建好：/root/.mx-space/static[39m[39m
+[90m23:11:53[39m cwd:  /app
+[90m23:11:53[39m [36mℹ[39m [[33mMongoDB[39m] [32mconnecting...[39m
+[90m23:11:53[39m [36mℹ[39m [[33mMongoDB[39m] [32mreadied![39m
+[90m23:11:55[39m [36mℹ[39m ENV: production
+[90m23:11:55[39m [32m✔[39m [P1] Server listen on: http://127.0.0.1:2333
+[90m23:11:55[39m [32m✔[39m [P1] Admin Dashboard: http://127.0.0.1:2333/qaqdmin
+[90m23:11:55[39m [32m✔[39m [P1] Admin Local Dashboard: http://127.0.0.1:2333/proxy/qaqdmin
+[90m23:11:55[39m [36mℹ[39m  [[95mSystem[39m]  [32mServer is up. [33m+3271ms[39m[32m[39m
+[90m23:11:55[39m [43m[30m WARN [39m[49m  [[33mEmailService[39m]  [33m未启动邮件通知[39m
+[90m23:12:05[39m [43m[30m WARN [39m[49m  [[33mAllExceptionsFilter[39m]  [33mIP: 192.168.165.1 错误信息：(500) 站点主人信息已丢失 Path: /api/v2/master?t=1694099525702[39m
+[90m23:12:10[39m [41m[30m ERROR [39m[49m (node:1) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[90m23:12:59[39m [43m[30m WARN [39m[49m  [[33mAllExceptionsFilter[39m]  [33mIP: 192.168.165.1 错误信息：(404) Cannot GET /aggregate/feed Path: /aggregate/feed[39m
